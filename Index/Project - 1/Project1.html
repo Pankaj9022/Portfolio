@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Styles for the services section */
+        
+
+.services {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+.services .max-width {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+}
+
+.services .title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #333333;
+}
+
+.services .serv-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services .card {
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px gray;
+  transition: all 0.3s ease-in-out;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.services .card:hover {
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.974);
+  transform: translateY(-10px);
+  /* background-color: #666666; */
+
+}
+.text:hover{
+  transform: translateY(-10px);
+  
+
+}
+
+.services .card .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.services .card .box i {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.services .card .box .text {
+  font-size: 24px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #000000;
+}
+.services .card p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.services .card a {
+  text-decoration: none;
+}
+
+.services .card img {
+  width: 100%;
+  height: auto;
+}
+/* Styles for the navbar */
+
+.navbar {
+  /* background-color: #333333; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.navbar .max-width {
+  margin: 0 auto;
+  padding: 10px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.navbar .logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+}
+
+.navbar .logo a span {
+  color:crimson;
+}
+
+/* Styles for the links inside the navbar */
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 10px 25px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.navbar ul li a:hover {
+  background-color: #ff0202e2;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span><img src="/Index/Project - 1/Icon Power Bi.png" alt="" srcset=""></span></a></div>
+            <ul class="menu">
+                <li><a href="/Index/IndexPortfolio.html" class="menu-btn">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2  class="title" >Power Bi Project </h2>
+            <div class="serv-content">
+                <div class="card"><a href="project1.html">
+                  <a href="https://app.powerbi.com/links/RFyKas5Fc4?ctid=47311945-8465-4383-a56c-a8080ffa6ecf&pbi_source=linkShare" target="_blank">
+                    <div class="box">
+                      <p class="text">Project-1</p>
+                      <p>Opportunity Analysis</p>
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text"><img src="/Index/Project - 1/Opportunity.png" alt=""></div>
+                    </div></a></a>
+                </div>
+                <div class="card">
+                    <div class="box"><a href="https://app.powerbi.com/links/Dlt1qbyz7E?ctid=47311945-8465-4383-a56c-a8080ffa6ecf&pbi_source=linkShare&bookmarkGuid=0a325caf-e33c-4b34-b70b-d745983cd02d" target="_blank">
+                      <p class="text">Project-2</p>
+                      <p>Corona-Virus Global Pandemic Overview</p>
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text"><img src="/Index/Project - 1/Covid.png" alt=""></div>
+                    </div></a>
+                </div>
+                <div class="card">
+                  <div class="box"><a href="">
+                    <p class="text">Project-3</p>
+                    <p>E-commerce Store Sales Overview</p>
+                      <i class="fas fa-chart-line"></i>
+                      <div class="text"><img src="/Index/Project - 1/Sales.png" alt=""></div>
+                  </div></a>
+              </div>
+               
+</body>
+</html>
